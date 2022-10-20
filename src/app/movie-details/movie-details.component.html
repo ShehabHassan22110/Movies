@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <img  class="w-100" [src]="imgPrefix+movieDetails?.poster_path" alt="">
+        </div>
+        <div class="col-md-8">
+            <h3  class="mt-5">{{movieDetails?.title}}</h3>
+            <h5 class="mt-5"><span>Budget : </span>{{movieDetails?.budget}}</h5>
+            <h5><span>popularity : </span>{{movieDetails?.popularity}}</h5>
+            <h5><span>language :</span> {{movieDetails?.original_language}} </h5>
+            <h5><span>vote_average :</span> {{movieDetails?.vote_average}}   </h5>
+            <p  class="p-5">{{movieDetails?.overview}}</p>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+$bgColor:#131722;
+$lightBgColor:#24beaf;
+$bgTransparent:rgba(9, 62, 82, 0.6);
+$fontColor:#fff;
+$borderColor:#a8a8a83d;
+$secondColor:#949cb0;
+$voteBgColor:#77c9c1 ;
+
+
+body {
+    // background-color:$bgColor;
+    
+ background-image: url(assets/images/2.jpeg);
+ background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ color: white;
+    color: $fontColor;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+a{
+    font-size: 18px;
+    color: $fontColor;
+    text-decoration: none;
+}
+// a i:hover{
+//     font-size: 18px;
+//     color: $fontColor;
+//     text-decoration: none;
+// }
+.brdr {
+    height: 1px;
+    background-color:$borderColor ;
+}
+.vote {
+    background-color:$voteBgColor ;
+    padding: 5px;
+    font-weight: 700;
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
